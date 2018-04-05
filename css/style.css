@@ -64,6 +64,5 @@ footer#main-footer {
   background: #000;
   color: white; }
 
-.row, col, .container {
-  margin: 0;
-  padding: 0; }
+.row {
+  margin: 0; }
