@@ -66,3 +66,29 @@ footer#main-footer {
 
 .row {
   margin: 0; }
+
+#page-header {
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: white;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+@media (min-width: 992px) {
+  #about img {
+    margin-top: -75px; } }
+
+@media (min-width: 768px) {
+  #about img {
+    padding-top: 25px; } }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }
